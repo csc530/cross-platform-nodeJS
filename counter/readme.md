@@ -10,4 +10,8 @@
 3. Change home screen
    1. cd ./src/app/home/home.page.html
    2. Create a page with text and 2 buttons (+-)
-   3. 
+4. Add value variable to component class
+   1. Add value to monitor button click
+   2. Create increment and decrement functions
+5. Attach value and functions to page
+6. Build project and view in browser [and mobiles]

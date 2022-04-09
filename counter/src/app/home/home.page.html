@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <!-- * Edit the header content on the page-->
+      A simple counter app
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Counter</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <!-- * Add button -->
+    <!-- ? (click): the button's click event calling component increment function -->
+    <ion-button color="success" (click)="increment()">
+      <!-- * set plus [+] icon to button -->
+      <ion-icon name="add" class=""></ion-icon>
+    </ion-button>
+    <ion-text>
+      <!-- ? Bind the text to the counter value -->
+      <h1 [textContent]="value" id="counter">
+          <!-- ~ alternative to inject the value to the page using handlebars -->
+          <!-- {{value}} -->
+      </h1>
+    </ion-text>
+    <!-- * Another button to decrease the value on click -->
+    <ion-button color="danger" (click)="decrement()">
+      <ion-icon name="remove"></ion-icon>
+    </ion-button>
+  </div>
+</ion-content>

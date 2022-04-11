@@ -1,6 +1,21 @@
 # a simple counter app
 
-## Creation
+## Recommended VS Code extensions
+
+- [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+  - Description: Editor services for Angular templates
+- [Ionic](https://marketplace.visualstudio.com/items?itemName=ionic.ionic)
+  - Description: Official extension for Ionic and Capacitor development
+
+## Prerequisites
+
+Download ionic cli (preferably globally) to use ionic actions in the terminal environment
+
+`npm install -g @ionic/cli`
+
+That's it 😁
+
+## Instructions
 
 1. `ionic start`
    1. Say no to the creation wizard
